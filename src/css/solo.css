@@ -1,0 +1,127 @@
+/*.solo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.sologame{
+	display: grid;
+	grid-gap: 2.5px;
+	justify-items:;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-areas: 
+	"le li pr pr"
+	"sc sc pr pr"
+	"gc gc gc gc";
+
+}
+.gamecanvas{
+	grid-area: gc;
+	background-color: #5C2C5B;
+}
+
+.previewcanvas{
+	grid-area: pr;
+	background-color: #5C2C5B;
+}
+
+.score{
+	grid-area: sc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #5C2C5B;
+	color: #7AEFDB;
+	font-size: 1.2em;
+}
+.level{
+	grid-area: le;
+	background-color: #5C2C5B;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #5C2C5B;
+	color: #EBE25E;
+	font-size: 1em;
+}
+.lines{
+	grid-area: li;
+	background-color: #5C2C5B;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #5C2C5B;
+	color: #F59CE4;
+	font-size: 1em;
+}*/
+
+
+
+.solo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.sologame{
+	display: grid;
+	grid-gap: 5px;
+
+	grid-template-areas: 
+	"ua"
+	"gc";
+
+}
+.gamecanvas{
+	grid-area: gc;
+	background-color: #5C2C5B;
+}
+
+.upperArea{
+	grid-area: ua;
+	display: grid;
+	grid-template-areas: 
+	"le li pr"
+	"sc sc pr";
+}
+
+.previewcanvas{
+	grid-area: pr;
+	background-color: #5C2C5B;
+}
+
+.score{
+	grid-area: sc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #5C2C5B;
+	color: #7AEFDB;
+	font-size: 1.2em;
+	box-shadow: -5px 5px 0px 0px  #EAD9B1 inset;
+}
+.level{
+	grid-area: le;
+	background-color: #5C2C5B;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #5C2C5B;
+	color: #EBE25E;
+	font-size: 1em;
+	box-shadow: -5px 0px 0px 0px  #EAD9B1 inset;
+}
+.lines{
+	grid-area: li;
+	background-color: #5C2C5B;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #5C2C5B;
+	color: #F59CE4;
+	font-size: 1em;
+	box-shadow: -5px 0px 0px 0px  #EAD9B1 inset;
+}
+

@@ -1,0 +1,63 @@
+.index{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+.menu{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	grid-gap: 20px;
+	background-color: #5C2C5B;
+	border-radius: 5px;
+	width: 300px;
+	height: 150px;
+}
+#soloButton{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#duoButton{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.menu > div{
+	border-radius: 2.5px;
+	
+}
+#soloButton:hover{
+	background-color: #EBE25E;
+}
+
+#duoButton:hover{
+	background-color: #7AEFDB;
+}
+
+#soloButton:active {
+	background-color: #9B9444;
+	color: #D3C4C4;
+}
+
+#duoButton:active {
+	background-color: #5DBEB2;
+	color: #D3C4C4;
+}
+
+.button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+	color: white;
+	text-decoration: none;
+	width: 40%;
+	height: 80%;
+	-webkit-user-select: none; /* Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+/Edge */
+	user-select: none;
+}

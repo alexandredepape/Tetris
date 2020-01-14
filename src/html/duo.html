@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Duo Game</title>
+	<link rel="stylesheet" type="text/css" href="../css/solo.css">
+	<link rel="stylesheet" type="text/css" href="../css/duo.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script src="../javascript/jquery.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="duo">
+		<div class="solo" id="player1">
+			<div class="sologame">
+				<div class="upperArea">
+					<div class="lines">
+						LINE: 0
+					</div>
+					<div class="level">
+						LVL: 0
+					</div>
+					<div class="score">
+						SCORE: 0
+					</div>
+					<canvas class="previewcanvas" width="5000" height="3000">
+						Your browser does not support the HTML5 canvas tag.
+					</canvas>
+				</div>
+				<canvas class="gamecanvas" width="2000" height="4000">
+					Your browser does not support the HTML5 canvas tag.
+				</canvas>
+			</div>
+		</div>
+		<div class="solo" id="player2">
+			<div class="sologame">
+				<div class="upperArea">
+					<div class="lines">
+						LINE: 0
+					</div>
+					<div class="level">
+						LVL: 0
+					</div>
+					<div class="score">
+						SCORE: 0
+					</div>
+					<canvas class="previewcanvas" width="5000" height="3000">
+						Your browser does not support the HTML5 canvas tag.
+					</canvas>
+				</div>
+				<canvas class="gamecanvas" width="2000" height="4000">
+					Your browser does not support the HTML5 canvas tag.
+				</canvas>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../javascript/resizecanvas.js"></script>
+	<script type="text/javascript" src="../javascript/Game.js"></script>
+	<script type="text/javascript" src="../javascript/ConnectionHandler.js"></script>
+</body>
+</html>
